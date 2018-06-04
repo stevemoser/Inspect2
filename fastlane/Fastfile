@@ -40,7 +40,7 @@ platform :ios do
   desc "Build and Package IPA"
   lane :build do |options|
     projectName = options[:projectName] || ENV["PROJECT_NAME"]
-    xcodeproj = options[:xcodeproj] || "#{projectName}.xcodeproj"
+    xcodeproj = 'Inspect2'# options[:xcodeproj] || "#{projectName}.xcodeproj"
     scheme = options[:scheme] || ENV["SCHEME"]
     buildPath = options[:buildPath] || './build'
     logPath = options[:logPath] || './build'
