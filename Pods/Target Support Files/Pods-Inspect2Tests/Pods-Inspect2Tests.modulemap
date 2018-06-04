@@ -1,0 +1,6 @@
+framework module Pods_Inspect2Tests {
+  umbrella header "Pods-Inspect2Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

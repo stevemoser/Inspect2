@@ -1,0 +1,23 @@
+{
+  "log": ["HTTP", "HTTP+", "CRUD"],
+  "adminInterface": "sync-gateway:4985",
+  "databases": {
+    "local-db": {
+      "import_docs": "continuous",
+      "unsupported": {
+        "replicator_2": true
+      },
+      "bucket": "local-db",
+      "username": "Administrator",
+      "password": "password",
+      "server": "http://database:8091",
+      "users": {
+        "GUEST": {
+          "disabled": false,
+          "all_channels": ["*"],
+          "admin_channels": ["*"]
+        }
+      }
+    }
+  }
+}

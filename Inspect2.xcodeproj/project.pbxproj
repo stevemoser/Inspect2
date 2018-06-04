@@ -1,0 +1,1478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A5EC78987656313FE54044 /* Pods_Inspect2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0D24F042CE6F0E5FF63446 /* Pods_Inspect2Tests.framework */; };
+		82D8DA382044D65E00FF7957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D8DA372044D65E00FF7957 /* AppDelegate.swift */; };
+		82D8DA3F2044D65E00FF7957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D8DA3E2044D65E00FF7957 /* Assets.xcassets */; };
+		82D8DA422044D65E00FF7957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D8DA402044D65E00FF7957 /* LaunchScreen.storyboard */; };
+		82D8DA4D2044D65E00FF7957 /* Inspect2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D8DA4C2044D65E00FF7957 /* Inspect2Tests.swift */; };
+		82D8DA582044D65E00FF7957 /* Inspect2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D8DA572044D65E00FF7957 /* Inspect2UITests.swift */; };
+		82FE2D992044DBD000A181E2 /* EnvironmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE2D772044DB3D00A181E2 /* EnvironmentManager.swift */; };
+		82FE2DB62044DBDB00A181E2 /* MapNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE2D8C2044DB6300A181E2 /* MapNavigationController.swift */; };
+		941BFDAC0A4F48FE3791ACED /* Pods_Inspect2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DABBDF1EE5B6172192B6A4 /* Pods_Inspect2.framework */; };
+		9D852AFD7FF80DFF1CB6BF54 /* Pods_Inspect2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2129A006CBF9F15E2D01C8A /* Pods_Inspect2UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82D8DA492044D65E00FF7957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D8DA2C2044D65E00FF7957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82D8DA332044D65E00FF7957;
+			remoteInfo = Inspect2;
+		};
+		82D8DA542044D65E00FF7957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D8DA2C2044D65E00FF7957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82D8DA332044D65E00FF7957;
+			remoteInfo = Inspect2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B025D3396F78BF71110A204 /* Pods-Inspect2UITests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2UITests.debugqa.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2UITests/Pods-Inspect2UITests.debugqa.xcconfig"; sourceTree = "<group>"; };
+		150904AF9FFF48287380378E /* Pods-Inspect2Tests.releasedevelopment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2Tests.releasedevelopment.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2Tests/Pods-Inspect2Tests.releasedevelopment.xcconfig"; sourceTree = "<group>"; };
+		17DABBDF1EE5B6172192B6A4 /* Pods_Inspect2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inspect2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0F4096129BB18B91FCD2B1 /* Pods-Inspect2.releaselocalhost.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2.releaselocalhost.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2/Pods-Inspect2.releaselocalhost.xcconfig"; sourceTree = "<group>"; };
+		245E5A290C3966FC0BB1B4EE /* Pods-Inspect2UITests.releaselocalhost.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2UITests.releaselocalhost.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2UITests/Pods-Inspect2UITests.releaselocalhost.xcconfig"; sourceTree = "<group>"; };
+		2593B905E3FA9F30EF24F67E /* Pods-Inspect2.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2.debugqa.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2/Pods-Inspect2.debugqa.xcconfig"; sourceTree = "<group>"; };
+		263B81DE6BF803A0598FC28B /* Pods-Inspect2.debuglocalhost.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2.debuglocalhost.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2/Pods-Inspect2.debuglocalhost.xcconfig"; sourceTree = "<group>"; };
+		2687D786771AD45576702BEC /* Pods-Inspect2.releaseproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2.releaseproduction.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2/Pods-Inspect2.releaseproduction.xcconfig"; sourceTree = "<group>"; };
+		2F5FD4A511DB75A2DBCFD97A /* Pods-Inspect2UITests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2UITests.releaseqa.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2UITests/Pods-Inspect2UITests.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		3EBF7A2F9CE25A1C63DB3A2B /* Pods-Inspect2UITests.debugdevelopment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2UITests.debugdevelopment.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2UITests/Pods-Inspect2UITests.debugdevelopment.xcconfig"; sourceTree = "<group>"; };
+		4763837CE4391EE51EA5EB9E /* Pods-Inspect2Tests.debuglocalhost.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2Tests.debuglocalhost.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2Tests/Pods-Inspect2Tests.debuglocalhost.xcconfig"; sourceTree = "<group>"; };
+		4F484C8116B00973DDE3AA1C /* Pods-Inspect2.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2.releaseqa.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2/Pods-Inspect2.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		61F33904E921DB645C6E6A64 /* Pods-Inspect2.releasedevelopment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2.releasedevelopment.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2/Pods-Inspect2.releasedevelopment.xcconfig"; sourceTree = "<group>"; };
+		73271B730197AAA32824E969 /* Pods-Inspect2Tests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2Tests.releaseqa.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2Tests/Pods-Inspect2Tests.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		820A0294209296910086FA28 /* Inspect2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Inspect2-Bridging-Header.h"; sourceTree = "<group>"; };
+		82D8DA342044D65E00FF7957 /* Inspect2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inspect2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D8DA372044D65E00FF7957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82D8DA3E2044D65E00FF7957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82D8DA412044D65E00FF7957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82D8DA432044D65E00FF7957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D8DA482044D65E00FF7957 /* Inspect2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Inspect2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D8DA4C2044D65E00FF7957 /* Inspect2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspect2Tests.swift; sourceTree = "<group>"; };
+		82D8DA4E2044D65E00FF7957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D8DA532044D65E00FF7957 /* Inspect2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Inspect2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D8DA572044D65E00FF7957 /* Inspect2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspect2UITests.swift; sourceTree = "<group>"; };
+		82D8DA592044D65E00FF7957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FE2D772044DB3D00A181E2 /* EnvironmentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentManager.swift; sourceTree = "<group>"; };
+		82FE2D8C2044DB6300A181E2 /* MapNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNavigationController.swift; sourceTree = "<group>"; };
+		82FE2DBC2044DD0F00A181E2 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		82FE2DBF2044DDA100A181E2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		82FE2DC02044DDB700A181E2 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9286E712DED14F5C7643446A /* Pods-Inspect2Tests.releaseproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2Tests.releaseproduction.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2Tests/Pods-Inspect2Tests.releaseproduction.xcconfig"; sourceTree = "<group>"; };
+		A3E6B6581C73FDF012510B74 /* Pods-Inspect2Tests.releaselocalhost.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2Tests.releaselocalhost.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2Tests/Pods-Inspect2Tests.releaselocalhost.xcconfig"; sourceTree = "<group>"; };
+		A9110688547ADF7D9B03B176 /* Pods-Inspect2.debugdevelopment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2.debugdevelopment.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2/Pods-Inspect2.debugdevelopment.xcconfig"; sourceTree = "<group>"; };
+		B2129A006CBF9F15E2D01C8A /* Pods_Inspect2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inspect2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0CCC726C67B7111DE8F9108 /* Pods-Inspect2Tests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2Tests.debugqa.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2Tests/Pods-Inspect2Tests.debugqa.xcconfig"; sourceTree = "<group>"; };
+		CD3B7092420044FC9B4749D2 /* Pods-Inspect2UITests.releaseproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2UITests.releaseproduction.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2UITests/Pods-Inspect2UITests.releaseproduction.xcconfig"; sourceTree = "<group>"; };
+		CD8C496E0ABB871A6F8EBB26 /* Pods-Inspect2.debugproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2.debugproduction.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2/Pods-Inspect2.debugproduction.xcconfig"; sourceTree = "<group>"; };
+		D2DDB41F94CB21BF535BE8CB /* Pods-Inspect2Tests.debugdevelopment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2Tests.debugdevelopment.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2Tests/Pods-Inspect2Tests.debugdevelopment.xcconfig"; sourceTree = "<group>"; };
+		DB90737970C06F245331D39F /* Pods-Inspect2UITests.releasedevelopment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2UITests.releasedevelopment.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2UITests/Pods-Inspect2UITests.releasedevelopment.xcconfig"; sourceTree = "<group>"; };
+		E05FC9EFC67019FC19CA2370 /* Pods-Inspect2UITests.debuglocalhost.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2UITests.debuglocalhost.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2UITests/Pods-Inspect2UITests.debuglocalhost.xcconfig"; sourceTree = "<group>"; };
+		F1DD8B1A87B82BCBD908438D /* Pods-Inspect2Tests.debugproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2Tests.debugproduction.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2Tests/Pods-Inspect2Tests.debugproduction.xcconfig"; sourceTree = "<group>"; };
+		F4B592077CDA8D20A4FA9113 /* Pods-Inspect2UITests.debugproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspect2UITests.debugproduction.xcconfig"; path = "Pods/Target Support Files/Pods-Inspect2UITests/Pods-Inspect2UITests.debugproduction.xcconfig"; sourceTree = "<group>"; };
+		FC0D24F042CE6F0E5FF63446 /* Pods_Inspect2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inspect2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82D8DA312044D65E00FF7957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941BFDAC0A4F48FE3791ACED /* Pods_Inspect2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D8DA452044D65E00FF7957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A5EC78987656313FE54044 /* Pods_Inspect2Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D8DA502044D65E00FF7957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D852AFD7FF80DFF1CB6BF54 /* Pods_Inspect2UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DACDA821755DE47F030099A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17DABBDF1EE5B6172192B6A4 /* Pods_Inspect2.framework */,
+				FC0D24F042CE6F0E5FF63446 /* Pods_Inspect2Tests.framework */,
+				B2129A006CBF9F15E2D01C8A /* Pods_Inspect2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82D8DA2B2044D65E00FF7957 = {
+			isa = PBXGroup;
+			children = (
+				82FE2DC02044DDB700A181E2 /* Podfile */,
+				82FE2DBF2044DDA100A181E2 /* README.md */,
+				82FE2DBC2044DD0F00A181E2 /* .swiftlint.yml */,
+				82D8DA362044D65E00FF7957 /* Inspect2 */,
+				82D8DA4B2044D65E00FF7957 /* Inspect2Tests */,
+				82D8DA562044D65E00FF7957 /* Inspect2UITests */,
+				82D8DA352044D65E00FF7957 /* Products */,
+				981A17FC5A674FBDCC626B66 /* Pods */,
+				1DACDA821755DE47F030099A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82D8DA352044D65E00FF7957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D8DA342044D65E00FF7957 /* Inspect2.app */,
+				82D8DA482044D65E00FF7957 /* Inspect2Tests.xctest */,
+				82D8DA532044D65E00FF7957 /* Inspect2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82D8DA362044D65E00FF7957 /* Inspect2 */ = {
+			isa = PBXGroup;
+			children = (
+				82D8DA372044D65E00FF7957 /* AppDelegate.swift */,
+				82D8DA3E2044D65E00FF7957 /* Assets.xcassets */,
+				82D8DA432044D65E00FF7957 /* Info.plist */,
+				820A0294209296910086FA28 /* Inspect2-Bridging-Header.h */,
+				82D8DA402044D65E00FF7957 /* LaunchScreen.storyboard */,
+				82FE2D6D2044DAAD00A181E2 /* Model */,
+				82FE2D6C2044DAA800A181E2 /* View */,
+				82FE2D6B2044DAA300A181E2 /* Controller */,
+			);
+			path = Inspect2;
+			sourceTree = "<group>";
+		};
+		82D8DA4B2044D65E00FF7957 /* Inspect2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				82D8DA4E2044D65E00FF7957 /* Info.plist */,
+				82D8DA4C2044D65E00FF7957 /* Inspect2Tests.swift */,
+			);
+			path = Inspect2Tests;
+			sourceTree = "<group>";
+		};
+		82D8DA562044D65E00FF7957 /* Inspect2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				82D8DA572044D65E00FF7957 /* Inspect2UITests.swift */,
+				82D8DA592044D65E00FF7957 /* Info.plist */,
+			);
+			path = Inspect2UITests;
+			sourceTree = "<group>";
+		};
+		82FE2D6B2044DAA300A181E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82FE2D8C2044DB6300A181E2 /* MapNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		82FE2D6C2044DAA800A181E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82FE2D6D2044DAAD00A181E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82FE2D772044DB3D00A181E2 /* EnvironmentManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		981A17FC5A674FBDCC626B66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD8C496E0ABB871A6F8EBB26 /* Pods-Inspect2.debugproduction.xcconfig */,
+				2593B905E3FA9F30EF24F67E /* Pods-Inspect2.debugqa.xcconfig */,
+				A9110688547ADF7D9B03B176 /* Pods-Inspect2.debugdevelopment.xcconfig */,
+				263B81DE6BF803A0598FC28B /* Pods-Inspect2.debuglocalhost.xcconfig */,
+				2687D786771AD45576702BEC /* Pods-Inspect2.releaseproduction.xcconfig */,
+				4F484C8116B00973DDE3AA1C /* Pods-Inspect2.releaseqa.xcconfig */,
+				61F33904E921DB645C6E6A64 /* Pods-Inspect2.releasedevelopment.xcconfig */,
+				1B0F4096129BB18B91FCD2B1 /* Pods-Inspect2.releaselocalhost.xcconfig */,
+				F1DD8B1A87B82BCBD908438D /* Pods-Inspect2Tests.debugproduction.xcconfig */,
+				C0CCC726C67B7111DE8F9108 /* Pods-Inspect2Tests.debugqa.xcconfig */,
+				D2DDB41F94CB21BF535BE8CB /* Pods-Inspect2Tests.debugdevelopment.xcconfig */,
+				4763837CE4391EE51EA5EB9E /* Pods-Inspect2Tests.debuglocalhost.xcconfig */,
+				9286E712DED14F5C7643446A /* Pods-Inspect2Tests.releaseproduction.xcconfig */,
+				73271B730197AAA32824E969 /* Pods-Inspect2Tests.releaseqa.xcconfig */,
+				150904AF9FFF48287380378E /* Pods-Inspect2Tests.releasedevelopment.xcconfig */,
+				A3E6B6581C73FDF012510B74 /* Pods-Inspect2Tests.releaselocalhost.xcconfig */,
+				F4B592077CDA8D20A4FA9113 /* Pods-Inspect2UITests.debugproduction.xcconfig */,
+				0B025D3396F78BF71110A204 /* Pods-Inspect2UITests.debugqa.xcconfig */,
+				3EBF7A2F9CE25A1C63DB3A2B /* Pods-Inspect2UITests.debugdevelopment.xcconfig */,
+				E05FC9EFC67019FC19CA2370 /* Pods-Inspect2UITests.debuglocalhost.xcconfig */,
+				CD3B7092420044FC9B4749D2 /* Pods-Inspect2UITests.releaseproduction.xcconfig */,
+				2F5FD4A511DB75A2DBCFD97A /* Pods-Inspect2UITests.releaseqa.xcconfig */,
+				DB90737970C06F245331D39F /* Pods-Inspect2UITests.releasedevelopment.xcconfig */,
+				245E5A290C3966FC0BB1B4EE /* Pods-Inspect2UITests.releaselocalhost.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82D8DA332044D65E00FF7957 /* Inspect2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D8DA5C2044D65E00FF7957 /* Build configuration list for PBXNativeTarget "Inspect2" */;
+			buildPhases = (
+				78EC4075E985491FB408D179 /* [CP] Check Pods Manifest.lock */,
+				82D8DA302044D65E00FF7957 /* Sources */,
+				82D8DA312044D65E00FF7957 /* Frameworks */,
+				82D8DA322044D65E00FF7957 /* Resources */,
+				82FE2DBE2044DD4F00A181E2 /* Swift Lint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inspect2;
+			productName = Inspect2;
+			productReference = 82D8DA342044D65E00FF7957 /* Inspect2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82D8DA472044D65E00FF7957 /* Inspect2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D8DA5F2044D65E00FF7957 /* Build configuration list for PBXNativeTarget "Inspect2Tests" */;
+			buildPhases = (
+				ECBC47D5DB20E65B3A6B389E /* [CP] Check Pods Manifest.lock */,
+				82D8DA442044D65E00FF7957 /* Sources */,
+				82D8DA452044D65E00FF7957 /* Frameworks */,
+				82D8DA462044D65E00FF7957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82D8DA4A2044D65E00FF7957 /* PBXTargetDependency */,
+			);
+			name = Inspect2Tests;
+			productName = Inspect2Tests;
+			productReference = 82D8DA482044D65E00FF7957 /* Inspect2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82D8DA522044D65E00FF7957 /* Inspect2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D8DA622044D65E00FF7957 /* Build configuration list for PBXNativeTarget "Inspect2UITests" */;
+			buildPhases = (
+				BFEF6EBC412C01030DB141FF /* [CP] Check Pods Manifest.lock */,
+				82D8DA4F2044D65E00FF7957 /* Sources */,
+				82D8DA502044D65E00FF7957 /* Frameworks */,
+				82D8DA512044D65E00FF7957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82D8DA552044D65E00FF7957 /* PBXTargetDependency */,
+			);
+			name = Inspect2UITests;
+			productName = Inspect2UITests;
+			productReference = 82D8DA532044D65E00FF7957 /* Inspect2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82D8DA2C2044D65E00FF7957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = PGE;
+				TargetAttributes = {
+					82D8DA332044D65E00FF7957 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Manual;
+					};
+					82D8DA472044D65E00FF7957 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82D8DA332044D65E00FF7957;
+					};
+					82D8DA522044D65E00FF7957 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82D8DA332044D65E00FF7957;
+					};
+				};
+			};
+			buildConfigurationList = 82D8DA2F2044D65E00FF7957 /* Build configuration list for PBXProject "Inspect2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82D8DA2B2044D65E00FF7957;
+			productRefGroup = 82D8DA352044D65E00FF7957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82D8DA332044D65E00FF7957 /* Inspect2 */,
+				82D8DA472044D65E00FF7957 /* Inspect2Tests */,
+				82D8DA522044D65E00FF7957 /* Inspect2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82D8DA322044D65E00FF7957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D8DA422044D65E00FF7957 /* LaunchScreen.storyboard in Resources */,
+				82D8DA3F2044D65E00FF7957 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D8DA462044D65E00FF7957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D8DA512044D65E00FF7957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78EC4075E985491FB408D179 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Inspect2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82FE2DBE2044DD4F00A181E2 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, brew install swiftlint\"\nfi";
+		};
+		BFEF6EBC412C01030DB141FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Inspect2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECBC47D5DB20E65B3A6B389E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Inspect2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82D8DA302044D65E00FF7957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FE2D992044DBD000A181E2 /* EnvironmentManager.swift in Sources */,
+				82D8DA382044D65E00FF7957 /* AppDelegate.swift in Sources */,
+				82FE2DB62044DBDB00A181E2 /* MapNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D8DA442044D65E00FF7957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D8DA4D2044D65E00FF7957 /* Inspect2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D8DA4F2044D65E00FF7957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D8DA582044D65E00FF7957 /* Inspect2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82D8DA4A2044D65E00FF7957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82D8DA332044D65E00FF7957 /* Inspect2 */;
+			targetProxy = 82D8DA492044D65E00FF7957 /* PBXContainerItemProxy */;
+		};
+		82D8DA552044D65E00FF7957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82D8DA332044D65E00FF7957 /* Inspect2 */;
+			targetProxy = 82D8DA542044D65E00FF7957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82D8DA402044D65E00FF7957 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D8DA412044D65E00FF7957 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82171A82207401A60095BB89 /* DebugLocalhost */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = DebugLocalhost;
+		};
+		82171A83207401A60095BB89 /* DebugLocalhost */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263B81DE6BF803A0598FC28B /* Pods-Inspect2.debuglocalhost.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = app_icon_development;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Inspect2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEBUG\" \"-DLOCALHOST\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.Inspect2.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Inspect2/Inspect2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = DebugLocalhost;
+		};
+		82171A84207401A60095BB89 /* DebugLocalhost */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4763837CE4391EE51EA5EB9E /* Pods-Inspect2Tests.debuglocalhost.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inspect2.app/Inspect2";
+			};
+			name = DebugLocalhost;
+		};
+		82171A85207401A60095BB89 /* DebugLocalhost */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05FC9EFC67019FC19CA2370 /* Pods-Inspect2UITests.debuglocalhost.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inspect2;
+			};
+			name = DebugLocalhost;
+		};
+		82171A86207401B00095BB89 /* ReleaseLocalhost */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseLocalhost;
+		};
+		82171A87207401B00095BB89 /* ReleaseLocalhost */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0F4096129BB18B91FCD2B1 /* Pods-Inspect2.releaselocalhost.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = app_icon_development;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Inspect2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DRELEASE\" \"-DLOCALHOST\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.Inspect2.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Inspect2/Inspect2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = ReleaseLocalhost;
+		};
+		82171A88207401B00095BB89 /* ReleaseLocalhost */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E6B6581C73FDF012510B74 /* Pods-Inspect2Tests.releaselocalhost.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inspect2.app/Inspect2";
+			};
+			name = ReleaseLocalhost;
+		};
+		82171A89207401B00095BB89 /* ReleaseLocalhost */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 245E5A290C3966FC0BB1B4EE /* Pods-Inspect2UITests.releaselocalhost.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inspect2;
+			};
+			name = ReleaseLocalhost;
+		};
+		82A038342044D75D00FE2C8E /* DebugProduction */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = DebugProduction;
+		};
+		82A038352044D75D00FE2C8E /* DebugProduction */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8C496E0ABB871A6F8EBB26 /* Pods-Inspect2.debugproduction.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = app_icon_production;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Inspect2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEBUG\" \"-DPRODUCTION\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.Inspect2.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Inspect2/Inspect2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = DebugProduction;
+		};
+		82A038362044D75D00FE2C8E /* DebugProduction */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1DD8B1A87B82BCBD908438D /* Pods-Inspect2Tests.debugproduction.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inspect2.app/Inspect2";
+			};
+			name = DebugProduction;
+		};
+		82A038372044D75D00FE2C8E /* DebugProduction */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B592077CDA8D20A4FA9113 /* Pods-Inspect2UITests.debugproduction.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inspect2;
+			};
+			name = DebugProduction;
+		};
+		82A038382044D76700FE2C8E /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = DebugQA;
+		};
+		82A038392044D76700FE2C8E /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2593B905E3FA9F30EF24F67E /* Pods-Inspect2.debugqa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = app_icon_qa;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Inspect2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEBUG\" \"-DQA\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.Inspect2.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Inspect2/Inspect2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = DebugQA;
+		};
+		82A0383A2044D76700FE2C8E /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0CCC726C67B7111DE8F9108 /* Pods-Inspect2Tests.debugqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inspect2.app/Inspect2";
+			};
+			name = DebugQA;
+		};
+		82A0383B2044D76700FE2C8E /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B025D3396F78BF71110A204 /* Pods-Inspect2UITests.debugqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inspect2;
+			};
+			name = DebugQA;
+		};
+		82A0383C2044D76E00FE2C8E /* DebugDevelopment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = DebugDevelopment;
+		};
+		82A0383D2044D76E00FE2C8E /* DebugDevelopment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9110688547ADF7D9B03B176 /* Pods-Inspect2.debugdevelopment.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = app_icon_development;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Inspect2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEBUG\" \"-DDEVELOPMENT\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.Inspect2.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Inspect2/Inspect2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = DebugDevelopment;
+		};
+		82A0383E2044D76E00FE2C8E /* DebugDevelopment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2DDB41F94CB21BF535BE8CB /* Pods-Inspect2Tests.debugdevelopment.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inspect2.app/Inspect2";
+			};
+			name = DebugDevelopment;
+		};
+		82A0383F2044D76E00FE2C8E /* DebugDevelopment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EBF7A2F9CE25A1C63DB3A2B /* Pods-Inspect2UITests.debugdevelopment.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inspect2;
+			};
+			name = DebugDevelopment;
+		};
+		82A038402044D77800FE2C8E /* ReleaseProduction */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseProduction;
+		};
+		82A038412044D77800FE2C8E /* ReleaseProduction */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2687D786771AD45576702BEC /* Pods-Inspect2.releaseproduction.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = app_icon_production;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Inspect2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DRELEASE\" \"-DPRODUCTION\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.Inspect2.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Inspect2/Inspect2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = ReleaseProduction;
+		};
+		82A038422044D77800FE2C8E /* ReleaseProduction */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9286E712DED14F5C7643446A /* Pods-Inspect2Tests.releaseproduction.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inspect2.app/Inspect2";
+			};
+			name = ReleaseProduction;
+		};
+		82A038432044D77800FE2C8E /* ReleaseProduction */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3B7092420044FC9B4749D2 /* Pods-Inspect2UITests.releaseproduction.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inspect2;
+			};
+			name = ReleaseProduction;
+		};
+		82A038442044D78000FE2C8E /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseQA;
+		};
+		82A038452044D78000FE2C8E /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F484C8116B00973DDE3AA1C /* Pods-Inspect2.releaseqa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = app_icon_qa;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Inspect2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DRELEASE\" \"-DQA\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.Inspect2.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Inspect2/Inspect2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = ReleaseQA;
+		};
+		82A038462044D78000FE2C8E /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73271B730197AAA32824E969 /* Pods-Inspect2Tests.releaseqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inspect2.app/Inspect2";
+			};
+			name = ReleaseQA;
+		};
+		82A038472044D78000FE2C8E /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5FD4A511DB75A2DBCFD97A /* Pods-Inspect2UITests.releaseqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inspect2;
+			};
+			name = ReleaseQA;
+		};
+		82A038482044D78600FE2C8E /* ReleaseDevelopment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseDevelopment;
+		};
+		82A038492044D78600FE2C8E /* ReleaseDevelopment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F33904E921DB645C6E6A64 /* Pods-Inspect2.releasedevelopment.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = app_icon_development;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Inspect2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DRELEASE\" \"-DDEVELOPMENT\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.Inspect2.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Inspect2/Inspect2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = ReleaseDevelopment;
+		};
+		82A0384A2044D78600FE2C8E /* ReleaseDevelopment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150904AF9FFF48287380378E /* Pods-Inspect2Tests.releasedevelopment.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inspect2.app/Inspect2";
+			};
+			name = ReleaseDevelopment;
+		};
+		82A0384B2044D78600FE2C8E /* ReleaseDevelopment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB90737970C06F245331D39F /* Pods-Inspect2UITests.releasedevelopment.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPQGW73C56;
+				INFOPLIST_FILE = Inspect2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.Inspect2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inspect2;
+			};
+			name = ReleaseDevelopment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82D8DA2F2044D65E00FF7957 /* Build configuration list for PBXProject "Inspect2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A038342044D75D00FE2C8E /* DebugProduction */,
+				82A038382044D76700FE2C8E /* DebugQA */,
+				82A0383C2044D76E00FE2C8E /* DebugDevelopment */,
+				82171A82207401A60095BB89 /* DebugLocalhost */,
+				82A038402044D77800FE2C8E /* ReleaseProduction */,
+				82A038442044D78000FE2C8E /* ReleaseQA */,
+				82A038482044D78600FE2C8E /* ReleaseDevelopment */,
+				82171A86207401B00095BB89 /* ReleaseLocalhost */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DebugProduction;
+		};
+		82D8DA5C2044D65E00FF7957 /* Build configuration list for PBXNativeTarget "Inspect2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A038352044D75D00FE2C8E /* DebugProduction */,
+				82A038392044D76700FE2C8E /* DebugQA */,
+				82A0383D2044D76E00FE2C8E /* DebugDevelopment */,
+				82171A83207401A60095BB89 /* DebugLocalhost */,
+				82A038412044D77800FE2C8E /* ReleaseProduction */,
+				82A038452044D78000FE2C8E /* ReleaseQA */,
+				82A038492044D78600FE2C8E /* ReleaseDevelopment */,
+				82171A87207401B00095BB89 /* ReleaseLocalhost */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DebugProduction;
+		};
+		82D8DA5F2044D65E00FF7957 /* Build configuration list for PBXNativeTarget "Inspect2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A038362044D75D00FE2C8E /* DebugProduction */,
+				82A0383A2044D76700FE2C8E /* DebugQA */,
+				82A0383E2044D76E00FE2C8E /* DebugDevelopment */,
+				82171A84207401A60095BB89 /* DebugLocalhost */,
+				82A038422044D77800FE2C8E /* ReleaseProduction */,
+				82A038462044D78000FE2C8E /* ReleaseQA */,
+				82A0384A2044D78600FE2C8E /* ReleaseDevelopment */,
+				82171A88207401B00095BB89 /* ReleaseLocalhost */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DebugProduction;
+		};
+		82D8DA622044D65E00FF7957 /* Build configuration list for PBXNativeTarget "Inspect2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A038372044D75D00FE2C8E /* DebugProduction */,
+				82A0383B2044D76700FE2C8E /* DebugQA */,
+				82A0383F2044D76E00FE2C8E /* DebugDevelopment */,
+				82171A85207401A60095BB89 /* DebugLocalhost */,
+				82A038432044D77800FE2C8E /* ReleaseProduction */,
+				82A038472044D78000FE2C8E /* ReleaseQA */,
+				82A0384B2044D78600FE2C8E /* ReleaseDevelopment */,
+				82171A89207401B00095BB89 /* ReleaseLocalhost */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DebugProduction;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82D8DA2C2044D65E00FF7957 /* Project object */;
+}

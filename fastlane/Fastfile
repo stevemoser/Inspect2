@@ -1,0 +1,72 @@
+# Set syntax highlighting to ruby for vim
+#vim: syntax=ruby
+
+# Customise this file, documentation can be found here:
+# https://github.com/fastlane/fastlane/tree/master/fastlane/docs
+# All available actions: https://docs.fastlane.tools/actions
+# can also be listed using the `fastlane actions` command
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "2.84.0"
+
+default_platform :ios
+
+platform :ios do
+
+  before_all do
+    ENV['TEAM_ID'] = "8CT5XRS423" #replace me when not in public
+
+    if is_ci
+      setup_jenkins
+    else
+      ENV['BUILD_NUMBER'] = '0'
+    end
+  end
+
+  desc "Run Tests"
+  lane :test do |options|
+    scheme = options[:scheme] || ENV["SCHEME"]
+    logPath = options[:logPath] || './build'
+    # Run Tests against given scheme
+    scan(
+      scheme: scheme,
+      buildlog_path: logPath,
+      code_coverage: true
+    )
+
+  end
+
+  desc "Build and Package IPA"
+  lane :build do |options|
+    projectName = options[:projectName] || ENV["PROJECT_NAME"]
+    xcodeproj = options[:xcodeproj] || "#{projectName}.xcodeproj"
+    scheme = options[:scheme] || ENV["SCHEME"]
+    buildPath = options[:buildPath] || './build'
+    logPath = options[:logPath] || './build'
+
+    # Ensure the project team is ...
+    update_project_team(path: xcodeproj)
+
+    # Set the version and build numbers
+      
+    old_version = get_version_number
+    new_version = "#{old_version}.#{ENV['BUILD_NUMBER']}"
+    increment_version_number(version_number: "#{new_version}")
+    increment_build_number(build_number: ENV["BUILD_NUMBER"])
+
+    # Build and package the IPA against the given scheme.
+    # Sets the output name of the IPA and the build directory and export type
+    gym(
+      scheme: scheme,
+      output_name: "#{projectName}-#{get_version_number}.ipa",
+      clean: true,
+      output_directory: buildPath,
+      buildlog_path: logPath,
+      export_method: "enterprise",
+    )
+  end
+end
+
+# fastlane reports which actions are used. No personal data is recorded.
+# Learn more at https://github.com/fastlane/fastlane#metrics
