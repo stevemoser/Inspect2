@@ -18,7 +18,7 @@ platform :ios do
     ENV['TEAM_ID'] = "8CT5XRS423" #replace me when not in public
 
     if is_ci
-      setup_jenkins
+      #setup_jenkins
     else
       ENV['BUILD_NUMBER'] = '0'
     end
@@ -40,7 +40,7 @@ platform :ios do
   desc "Build and Package IPA"
   lane :build do |options|
     projectName = options[:projectName] || ENV["PROJECT_NAME"]
-    xcodeproj = 'Inspect2'# options[:xcodeproj] || "#{projectName}.xcodeproj"
+    xcodeproj = 'Inspect2.xcodeproj'# options[:xcodeproj] || "#{projectName}.xcodeproj"
     scheme = options[:scheme] || ENV["SCHEME"]
     buildPath = options[:buildPath] || './build'
     logPath = options[:logPath] || './build'
